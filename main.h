@@ -15,5 +15,8 @@ int _strlen(char *s);
 int __strlen(char *s1, char *s2, int *len_s1, int *len_s2);
 char *str_concat(char *s1, char *s2);
 void CharReadWrite(FILE *fin, FILE *fout);
+int add(int a, int b);
+int sub(int a, int b);
+void calc(int a, int b);
 
 #endif /* MAIN_H */
